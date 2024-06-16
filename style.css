@@ -108,6 +108,51 @@
     width: 65%;  
 }
 
+.we__offer_container{
+    width: 90%;
+    /* background-color: red; */
+    margin: 5% ;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.we__offer_card{
+    /* background-color: aqua; */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.8s ease;
+    margin-right: 12px;
+}
+
+.we__offer_card:hover{
+    transform: scale(1.1);
+}
+.we__offer_card img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+.we__offer_content{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    padding: 15px;
+
+}
+.we__offer_content h2{
+    color: #303030;
+    font-size: 18px;
+
+}
+.we__offer_content p{
+    
+    color: #8f8f8f;
+}
+
 @media only screen and (max-width:600px){
     .navbar__menu_container .user_icon{
         display: flex;
