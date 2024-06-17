@@ -153,6 +153,31 @@
     color: #8f8f8f;
 }
 
+.container__collections{
+    background-color: green;
+}
+
+.sub__heading_container{
+    background-color: pink;
+}
+
+.collections_card_container{
+    background-color: aqua;
+}
+
+.card__card2{
+    background-color: red;
+}
+.overlay{
+    background-color: yellow;
+}
+
+.content{
+    /* background-color: darkblue; */
+}
+
+
+
 @media only screen and (max-width:600px){
     .navbar__menu_container .user_icon{
         display: flex;
